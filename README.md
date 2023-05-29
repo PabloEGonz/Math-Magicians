@@ -28,7 +28,7 @@
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-# 📖 To Do List <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
 This is a calculator web application that uses an API to display quotes.
 
