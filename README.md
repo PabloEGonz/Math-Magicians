@@ -53,21 +53,6 @@ This is a calculator web application that uses an API to display quotes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-> You can find the Live demo at:
-
-- Coming soon
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📹 Video Walkthrough <a name="walkthrough"></a>
-
-> You can find the video walkthrough at:
-
-- Coming soon.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
