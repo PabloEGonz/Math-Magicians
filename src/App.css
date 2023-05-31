@@ -43,6 +43,12 @@ button {
   font-weight: 700;
 }
 
+span:active,
+button:active{
+  font-size: 1.3rem;
+  color: #fff;
+} 
+
 .zero {
   width: 50%;
 }
