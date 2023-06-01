@@ -30,7 +30,7 @@ export default function Calculator() {
       <span>4</span>
       <span>5</span>
       <span>6</span>
-      <button className="opperation" type="button">-</button>
+      <button className="opperation minus" type="button">-</button>
       <span>1</span>
       <span>2</span>
       <span>3</span>
