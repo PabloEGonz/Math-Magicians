@@ -19,9 +19,17 @@
 .result {
   color: white;
   width: 100%;
-  height: 10%;
+  height: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+.result p {
   text-align: end;
-  padding: 5%;
+  padding-top: 2%;
+  height: 100%;
+  margin: 0 5%;
+  font-size: 1.7rem;
 }
 
 button {
@@ -43,10 +51,22 @@ button {
   font-weight: 700;
 }
 
+span:active,
+button:active {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
 .zero {
   width: 50%;
 }
 
 .opperation {
   background-color: rgb(255, 156, 27);
+  font-size: 1.5rem;
+}
+
+.minus {
+  font-size: 2.8rem;
+  padding: 0;
 }
