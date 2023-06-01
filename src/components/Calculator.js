@@ -12,10 +12,10 @@ export default function Calculator() {
     const button = e.target.innerText;
     setResult(calculate(result, button));
   };
-  const pars = Number(result.next) || 0;
-  const res = result.total !== null ? result.total : pars;
+  const pars = result.next || '0';
+  const res = result.total !== null ? String(result.total) : pars;
   console.log(result);
-  const nxt = result.next ? parseInt(result.next, 10) : '';
+  const nxt = result.next ? result.next : '';
   const opr = result.operation ? result.operation : '';
 
   return (
