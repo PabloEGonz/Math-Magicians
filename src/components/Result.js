@@ -13,18 +13,13 @@ const Result = ({ total, next, operation }) => {
 };
 
 Result.propTypes = {
-  total: PropTypes.string,
+  total: PropTypes.string.isRequired,
   next: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   operation: PropTypes.string.isRequired,
 };
 
 Result.defaultProps = {
-  total: '0',
   next: '',
 };
-// Result.defaultProps = {
-//   result: 0,
-//   next: '',
-//   operation: '',
-// };
+
 export default Result;
