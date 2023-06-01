@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Result = ({ total, next, operation }) => {
-  const text = total !== next ? `${total} ${operation}  ${next}` : `${total} ${operation}`;
+  const text = total !== next ? `${total} ${operation}  ${next}` : `${total} ${operation}  ${next}`;
   return (
     <div className="result">
       <p>

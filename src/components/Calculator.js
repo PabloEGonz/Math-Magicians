@@ -12,9 +12,7 @@ export default function Calculator() {
     const button = e.target.innerText;
     setResult(calculate(result, button));
   };
-  const pars = result.next || '0';
-  const res = result.total !== null ? String(result.total) : pars;
-  console.log(result);
+  const res = result.total !== null ? String(result.total) : '';
   const nxt = result.next ? result.next : '';
   const opr = result.operation ? result.operation : '';
 
