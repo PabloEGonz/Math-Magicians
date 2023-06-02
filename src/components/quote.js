@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { key, url } from '../api/url'; // eslint-disable-next-line import/extensions
+import { key, url } from '../api/url'; // eslint-disable-line import/extensions
 
 export default function Quote() {
   const [data, setData] = useState([]);
