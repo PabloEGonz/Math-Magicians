@@ -12,7 +12,7 @@ export default function Calculator() {
     const button = e.target.innerText;
     setResult(calculate(result, button));
   };
-  const res = result.total !== null ? String(result.total) : '';
+  const res = result.total ? String(result.total) : '';
   const nxt = result.next ? result.next : '';
   const opr = result.operation ? result.operation : '';
 
@@ -36,7 +36,7 @@ export default function Calculator() {
       <span>3</span>
       <button className="opperation" type="button">+</button>
       <span className="zero">0</span>
-      <span>.</span>
+      <span className="dot">.</span>
       <button className="opperation" type="button">=</button>
     </div>
   );
