@@ -6,13 +6,13 @@ import Quote from './components/quote';
 
 function App() {
   return (
-    <>
-      <nav>
-        <h1>Welcome</h1>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/calculator">Calculator</Link></li>
-          <li><Link to="/quote">Quote</Link></li>
+    <div className="body">
+      <nav className="flex">
+        <h1 className="nav-brand">Math Magicians</h1>
+        <ul className="flex">
+          <li><Link to="/" className="nav-item">Home</Link></li>
+          <li><Link to="/calculator" className="nav-item">Calculator</Link></li>
+          <li><Link to="/quote" className="nav-item">Quote</Link></li>
         </ul>
       </nav>
       <Routes>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
