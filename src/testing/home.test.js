@@ -1,6 +1,6 @@
-import Home from "../components/Home";
+import Home from '../components/Home';
 
-test("it renders correclty", () => {
-    const component = Home;
-    expect(component).toMatchSnapshot();
-})
+test('it renders correclty', () => {
+  const component = Home;
+  expect(component).toMatchSnapshot();
+});
