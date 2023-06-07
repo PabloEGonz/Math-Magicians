@@ -107,6 +107,10 @@ Open index.html using live server extention.
 - Twitter: [@PabloEzGon](https://twitter.com/PabloEzGon)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/pablo-ezequiel-gonz%C3%A1lez-ramos-b9b854265)
 
+👤 Frank sefu
+
+- GitHub: [@francksefu](https://github.com/francksefu)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔭 Future Features <a name="future-features"></a>
