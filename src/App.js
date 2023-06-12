@@ -9,10 +9,10 @@ import Quote from './components/quote';
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/math-magicians" element={<Root />}>
+      <Route path="/" element={<Root />}>
         <Route index element={<Home />} />
-        <Route path="/math-magicians/calculator" element={<Calculator />} />
-        <Route path="/math-magicians/quote" element={<Quote />} />
+        <Route path="/calculator" element={<Calculator />} />
+        <Route path="/quote" element={<Quote />} />
       </Route>,
     ),
   );
@@ -27,9 +27,9 @@ const Root = () => (
     <nav className="flex">
       <h1 className="nav-brand">Math Magicians</h1>
       <ul className="flex">
-        <li><Link to="/math-magicians" className="nav-item">Home</Link></li>
-        <li><Link to="/math-magicians/calculator" className="nav-item">Calculator</Link></li>
-        <li><Link to="/math-magicians/quote" className="nav-item">Quote</Link></li>
+        <li><Link to="/" className="nav-item">Home</Link></li>
+        <li><Link to="/calculator" className="nav-item">Calculator</Link></li>
+        <li><Link to="/quote" className="nav-item">Quote</Link></li>
       </ul>
     </nav>
     <div>
